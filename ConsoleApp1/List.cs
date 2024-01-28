@@ -60,7 +60,7 @@ namespace ListPacks
                         }
                         else
                         {
-                            tasks.RemoveAt(numberTask);
+                            tasks.RemoveAt(numberTask-1);
                             Console.WriteLine($"Task number {numberTask} removed succesfully!");
                             break;
                         }
